@@ -9,11 +9,14 @@ Follow the steps below to setup SSH keys on github.
 3. When prompted to add username, run `yourname_github_ssh` to name your key.
 4. When prompted to add a passphrase, add a passphrase or press `Enter`
 
+NOTE: Make sure to add the key to the authenitcation agent using the command below:
+
+`sh-add /Users/ahmedmujtba/.ssh/<name-of-your-key>`
+
 ### In Github
 
 5. Go to `settings` and select `SSH and GPG keys`.
-6. Select `new ssh key` - 
-
+6. Select `new ssh key` -
 
 ### In Terminal
 
